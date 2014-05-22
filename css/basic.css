@@ -1,0 +1,67 @@
+body{ 
+	background-color: #FFFFFF;
+	margin: 50px auto 50px auto; 
+}
+
+.name{
+	text-align: center;
+    margin: 0 auto;
+	font-family:'Ubuntu', Ubuntu, sans-serif;
+	font-weight: bold;
+	font-size:30px;
+	color:#515151
+}
+.container {
+	background-color: #EEEEEE;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 20px 40px 20px;
+}
+#title_page #waterlol{
+	color:#00B4FF;
+}
+#title_page #introduction{
+	text-align: center;
+	font-family:'Ubuntu', Ubuntu, sans-serif;
+	font-size:15px;
+}
+nav ul li a:hover{
+	background-color:#00B4FF;
+}
+a.nav{
+	display:inline-block;
+	-webkit-border-radius:32px;
+	-o-border-radius:32px;
+	-moz-border-radius:32px;
+	border-radius:32px;
+	width:64px;
+	height:64px;
+}
+a.github{
+	background-image:url("icons/github_icon.png");
+}
+a.facebook{
+	background-image:url("icons/facebook_icon.png");
+}
+a.flickr{
+	background-image:url("icons/flickr_icon.png");
+}
+a.twitter{
+	background-image:url("icons/twitter_icon.png");
+}
+a.email{
+	background-image:url("icons/email_icon.png");
+}
+a.resume{
+	background-image:url("icons/resume_icon.png");
+}
+#title_page ul{
+	text-align: center;
+	list-style-type: none;
+    margin: 0;
+	padding: 0;
+}
+#title_page ul li {
+	display: inline;
+}
